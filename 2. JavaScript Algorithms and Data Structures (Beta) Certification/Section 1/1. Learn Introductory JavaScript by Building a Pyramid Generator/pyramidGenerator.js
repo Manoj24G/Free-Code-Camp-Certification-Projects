@@ -3,11 +3,14 @@ const count = 8;
 const rows = [];
 
 // Step 39
-for (let i = 0; i < count; i = i + 1) {
-  rows.push(i);
+for (let character = 0; character < count; character = character + 1) {
+  rows.push(character);
 }
 
 let result = "";
 
-// Step 40
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
 console.log(result);
