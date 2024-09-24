@@ -2,9 +2,9 @@ const character = "#";
 const count = 8;
 const rows = [];
 
-// Step 39
-for (let character = 0; character < count; character = character + 1) {
-  rows.push(character);
+// Step 46
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1));
 }
 
 let result = "";
