@@ -2,10 +2,12 @@ const character = "#";
 const count = 8;
 const rows = [];
 
-// Step 64
-// Give your padRow function a rowNumber and rowCount parameter. Multiple parameters are separated by a comma:
+// Step 65
+// Use the return keyword to return the value of the character variable, repeated rowNumber times.
 
-function padRow(rowNumber, rowCount) {}
+function padRow(rowNumber, rowCount) {
+  return character.repeat(rowNumber);
+}
 
 for (let i = 0; i < count; i = i + 1) {
   rows.push(character.repeat(i + 1));
