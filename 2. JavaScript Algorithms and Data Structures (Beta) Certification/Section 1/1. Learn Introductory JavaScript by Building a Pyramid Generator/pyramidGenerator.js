@@ -2,11 +2,11 @@ const character = "#";
 const count = 8;
 const rows = [];
 
-// Step 66
-// Replace the character.repeat(i + 1) in your .push() call with a function call for your padRow function.
+// Step 68
+//Use the addition operator to concatenate a single space " " to the beginning and end of your repeated character string.
 
 function padRow(rowNumber, rowCount) {
-  return character.repeat(rowNumber);
+  return " " + character.repeat(rowNumber) + " ";
 }
 
 for (let i = 0; i < count; i = i + 1) {
