@@ -1,12 +1,12 @@
-// Step 43
-// You need to use the special escape sequence \n, which is interpreted as a new line when the string is logged. 
+// Step 44
+// Instead of pushing i to the array, push the value of your character variable.
 
 const character = "#";
 const count = 8;
 const rows = [];
 
 for (let i = 0; i < count; i = i + 1) {
-  rows.push(i);
+  rows.push(character);
 }
 
 let result = "";
