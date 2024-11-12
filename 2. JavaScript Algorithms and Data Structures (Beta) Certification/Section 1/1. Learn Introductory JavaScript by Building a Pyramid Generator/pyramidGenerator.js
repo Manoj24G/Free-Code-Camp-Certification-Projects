@@ -1,5 +1,5 @@
 // Step 45
-// Instead of pushing i to the array, push the value of your character variable.
+// Use the .repeat() method on your character, and give it i for the number.
 
 const character = "#";
 const count = 8;
