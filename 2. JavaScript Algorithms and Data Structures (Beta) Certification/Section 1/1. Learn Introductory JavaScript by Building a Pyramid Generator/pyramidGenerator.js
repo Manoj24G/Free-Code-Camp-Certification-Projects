@@ -1,20 +1,22 @@
-// Step 64
-// Give your padRow function a rowNumber and rowCount parameter. Multiple parameters are separated by a comma:
+// Step 68
+// Use the addition operator to concatenate a single space " " to the beginning and end of your repeated character string.
 
 const character = "#";
 const count = 8;
 const rows = [];
 
-function padRow(rowNumber, rowCount) {}
+function padRow(rowNumber, rowCount) {
+  return " " + character.repeat(rowNumber) + " ";
+}
 
 for (let i = 0; i < count; i = i + 1) {
-  rows.push(character.repeat(i + 1));
+  rows.push(padRow(i + 1, count));
 }
 
 let result = "";
 
 for (const row of rows) {
-  result = result + row + "\n";
+  result = result + "\n" + row;
 }
 
 console.log(result);
