@@ -1,12 +1,14 @@
-// Step 45
-// Use the .repeat() method on your character, and give it i for the number.
+// Step 64
+// Give your padRow function a rowNumber and rowCount parameter. Multiple parameters are separated by a comma:
 
 const character = "#";
 const count = 8;
 const rows = [];
 
-for (let i = 1; i < count; i = i + 1) {
- rows.push(character.repeat(i));
+function padRow(rowNumber, rowCount) {}
+
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1));
 }
 
 let result = "";
