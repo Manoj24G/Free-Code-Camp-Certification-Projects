@@ -1,5 +1,5 @@
-// Step 71
-// Update your iteration statement in the for loop to use addition assignment.
+// Step 72
+// Replace your addition assignment with the increment operator for your loop iteration.
 
 const character = "#";
 const count = 10;
@@ -13,7 +13,7 @@ function padRow(rowNumber, rowCount) {
   );
 }
 
-for (let i = 0; i < count; i += 1) {
+for (let i = 0; i < count; i ++) {
   rows.push(padRow(i + 1, count));
 }
 
