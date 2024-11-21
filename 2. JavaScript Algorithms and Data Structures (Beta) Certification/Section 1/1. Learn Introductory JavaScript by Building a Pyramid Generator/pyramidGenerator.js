@@ -1,5 +1,5 @@
-// Step 69
-// Update your blank space strings to be repeated rowCount - rowNumber times.
+// Step 70
+// Update the character value to be repeated 2 * rowNumber - 1 times.
 const character = "#";
 const count = 8;
 const rows = [];
@@ -7,7 +7,7 @@ const rows = [];
 function padRow(rowNumber, rowCount) {
   return (
     " ".repeat(rowCount - rowNumber) +
-    character.repeat(rowNumber) +
+    character.repeat(2 * rowNumber - 1) +
     " ".repeat(rowCount - rowNumber)
   );
 }
