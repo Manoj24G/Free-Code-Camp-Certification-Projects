@@ -1,7 +1,8 @@
-// Step 70
-// Update the character value to be repeated 2 * rowNumber - 1 times.
+// Step 71
+// Update your iteration statement in the for loop to use addition assignment.
+
 const character = "#";
-const count = 8;
+const count = 10;
 const rows = [];
 
 function padRow(rowNumber, rowCount) {
@@ -12,7 +13,7 @@ function padRow(rowNumber, rowCount) {
   );
 }
 
-for (let i = 0; i < count; i = i + 1) {
+for (let i = 0; i < count; i += 1) {
   rows.push(padRow(i + 1, count));
 }
 
