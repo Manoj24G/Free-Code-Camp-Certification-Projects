@@ -1,8 +1,8 @@
-// Step 74
-// Update the first argument of your padRow call to be i.
+// Step 75
+// Update your loop condition to run while i is less than or equal to count.
 
 const character = "#";
-const count = 10;
+const count = 8;
 const rows = [];
 
 function padRow(rowNumber, rowCount) {
@@ -13,8 +13,8 @@ function padRow(rowNumber, rowCount) {
   );
 }
 
-for (let i = 0; i < count; i++) {
-  rows.push(padRow(i + 1, count));
+for (let i = 1; i < count; i++) {
+  rows.push(padRow(i, count));
 }
 
 let result = "";
