@@ -38,7 +38,7 @@ h2 {
 
 .item p {
   display: inline-block;
-margin-top: 5px;
+  margin-top: 5px;
   margin-bottom: 5px;
   font-size: 18px;
 }
@@ -60,6 +60,29 @@ hr {
   border-color: brown;
 }
 
-.bottom-line{
-margin-top: 25px;
+.bottom-line {
+  margin-top: 25px;
 }
+
+/* FOOTER */
+footer {
+  font-size: 14px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: white;
+}
+
+.
