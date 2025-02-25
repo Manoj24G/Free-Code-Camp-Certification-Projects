@@ -64,12 +64,12 @@ h2 {
 .flavor,
 .dessert {
   text-align: left;
-  width: 74%;
+  width: 50%;
 }
 
 .price {
   text-align: right;
-  width: 25%;
+  width: 49%;
 }
 
 /* FOOTER */
